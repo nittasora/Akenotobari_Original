@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{3a72cae9-9d9d-4781-93ee-1ac78389ddbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Super">
+      <UniqueIdentifier>{fb2b48c9-531d-4661-b065-281f10b5ef33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\DirectX">
+      <UniqueIdentifier>{a7afd687-2397-439e-a2d9-3ac8d3339b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Shader">
+      <UniqueIdentifier>{16d6bc1c-6c0c-4081-b0e2-daf3c2974ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Interface">
+      <UniqueIdentifier>{fa14bd39-8ca6-497a-810a-8c3748d44906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor">
+      <UniqueIdentifier>{58e651e1-33b0-48d3-b006-9cb63cc513a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Game">
+      <UniqueIdentifier>{4743665f-4a95-495c-bbaf-2d0fe01a3e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Editor">
+      <UniqueIdentifier>{8b54fffa-b78d-4c96-9def-e3195001a4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Game\Scene">
+      <UniqueIdentifier>{4bdde2dd-af9d-4bcc-bf08-25d62dd5a54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Game\Scene\Data">
+      <UniqueIdentifier>{3528e2d7-3555-42ff-8d93-ed9a618a6e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Game\Scene\Super">
+      <UniqueIdentifier>{57f9e8b0-27ef-4e23-a4b9-a816bf31a245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Game\Scene\GameScene">
+      <UniqueIdentifier>{2cbd939f-778a-482e-af69-590adb8eee9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Game\Manager">
+      <UniqueIdentifier>{38fb9142-76a2-445d-8b81-d6af84e21497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Game\Object">
+      <UniqueIdentifier>{14e47767-f9d1-453f-9dca-02b2cf03f371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Game\Object\Data">
+      <UniqueIdentifier>{bc1361df-e7a9-4ac7-b93b-7a9c622cdbeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Game\Object\Super">
+      <UniqueIdentifier>{9dfdb228-01c4-4085-b0c4-598d2b439511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Game\Object\Camera">
+      <UniqueIdentifier>{727eb8e1-bd37-4091-8933-d415a0db9170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Game\Object\UI">
+      <UniqueIdentifier>{02cea033-2a36-4c4f-88a8-54ba3dd1f4fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Game\Scene\MenuScene">
+      <UniqueIdentifier>{408e6be8-9e5d-4ddd-81db-ebef9a05a4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Game\Object\GameObject">
+      <UniqueIdentifier>{c932491d-2c36-4d61-a145-84bc91f5d564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{464f9995-6641-4fcc-858d-4f3ccaab2e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Debug">
+      <UniqueIdentifier>{a45cb7d2-e66d-42f3-9e3b-1a40442fa9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Release">
+      <UniqueIdentifier>{7e9d876b-d074-4dab-9289-4d756e7b4e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Editor\Scene">
+      <UniqueIdentifier>{bb4e8e2e-a069-4831-ad0d-2b4d908d31a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Editor\Object">
+      <UniqueIdentifier>{bcf96ba6-00dc-4cff-9828-f5ff946e0fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game&amp;Editor\Editor\Manager">
+      <UniqueIdentifier>{02a8c236-0ef5-42da-b73d-39ee67119bb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CWindow.h">
+      <Filter>System\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="directxtex\include\DirectXTex.h">
+      <Filter>System\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="CXAudio2.h">
+      <Filter>System\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirect3D.h">
+      <Filter>System\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="directxtex\include\WICTextureLoader.h">
+      <Filter>System\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ps.h">
+      <Filter>System\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="vs.h">
+      <Filter>System\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>System\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainWindow.h">
+      <Filter>System\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingleton.h">
+      <Filter>System\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>System\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="UserMath.h">
+      <Filter>System\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Game&amp;Editor\Game\Scene\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="CStagePlay.h">
+      <Filter>Game&amp;Editor\Game\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CStageSelect.h">
+      <Filter>Game&amp;Editor\Game\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitle.h">
+      <Filter>Game&amp;Editor\Game\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneData.h">
+      <Filter>Game&amp;Editor\Game\Scene\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="CFadeManager.h">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuManager.h">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Game&amp;Editor\Game\Object\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelData.h">
+      <Filter>Game&amp;Editor\Game\Object\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectData.h">
+      <Filter>Game&amp;Editor\Game\Object\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteData.h">
+      <Filter>Game&amp;Editor\Game\Object\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Game&amp;Editor\Game\Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameManager.h">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpriteFactory.h">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObject.h">
+      <Filter>Game&amp;Editor\Game\Object\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="CImage.h">
+      <Filter>Game&amp;Editor\Game\Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuData.h">
+      <Filter>Game&amp;Editor\Game\Scene\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuScene.h">
+      <Filter>Game&amp;Editor\Game\Scene\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="CMPause.h">
+      <Filter>Game&amp;Editor\Game\Scene\MenuScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CCursor.h">
+      <Filter>Game&amp;Editor\Game\Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.h">
+      <Filter>Game&amp;Editor\Game\Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CUnit.h">
+      <Filter>Game&amp;Editor\Game\Object\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CPage.h">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StageData.h">
+      <Filter>Game&amp;Editor\Game\Scene\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="CStageEditor.h">
+      <Filter>Game&amp;Editor\Editor\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CEditorText.h">
+      <Filter>Game&amp;Editor\Editor\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CEditorSelect.h">
+      <Filter>Game&amp;Editor\Editor\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CEditorManager.h">
+      <Filter>Game&amp;Editor\Editor\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeData.h">
+      <Filter>Game&amp;Editor\Game\Object\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="CBall.h">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CCannon.h">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CDharma.h">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CEditorSample.h">
+      <Filter>Game&amp;Editor\Editor\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CInputParameter.h">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CTornade.h">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CGoal.h">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CLabel.h">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CLionBottom.h">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CLionTop.h">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapChip.h">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CPiece.h">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CRB_Block.h">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerRunImage.h">
+      <Filter>Game&amp;Editor\Game\Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CStageManager.h">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CMTips.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CWindow.cpp">
+      <Filter>System\Super</Filter>
+    </ClCompile>
+    <ClCompile Include="CDirect3D.cpp">
+      <Filter>System\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="CXAudio2.cpp">
+      <Filter>System\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="directxtex\include\WICTextureLoader.cpp">
+      <Filter>System\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CInput.cpp">
+      <Filter>System\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainWindow.cpp">
+      <Filter>System\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="CSingleton.cpp">
+      <Filter>System\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimer.cpp">
+      <Filter>System\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="UserMath.cpp">
+      <Filter>System\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Game&amp;Editor\Game\Scene\Super</Filter>
+    </ClCompile>
+    <ClCompile Include="CStagePlay.cpp">
+      <Filter>Game&amp;Editor\Game\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CStageSelect.cpp">
+      <Filter>Game&amp;Editor\Game\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitle.cpp">
+      <Filter>Game&amp;Editor\Game\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuManager.cpp">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CFadeManager.cpp">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Game&amp;Editor\Game\Object\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Game&amp;Editor\Game\Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameManager.cpp">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpriteFactory.cpp">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObject.cpp">
+      <Filter>Game&amp;Editor\Game\Object\Super</Filter>
+    </ClCompile>
+    <ClCompile Include="CImage.cpp">
+      <Filter>Game&amp;Editor\Game\Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuScene.cpp">
+      <Filter>Game&amp;Editor\Game\Scene\Super</Filter>
+    </ClCompile>
+    <ClCompile Include="CMPause.cpp">
+      <Filter>Game&amp;Editor\Game\Scene\MenuScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CCursor.cpp">
+      <Filter>Game&amp;Editor\Game\Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>Game&amp;Editor\Game\Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CUnit.cpp">
+      <Filter>Game&amp;Editor\Game\Object\Super</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CPage.cpp">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CStageEditor.cpp">
+      <Filter>Game&amp;Editor\Editor\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CEditorText.cpp">
+      <Filter>Game&amp;Editor\Editor\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CEditorSelect.cpp">
+      <Filter>Game&amp;Editor\Editor\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CEditorManager.cpp">
+      <Filter>Game&amp;Editor\Editor\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CBall.cpp">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CCannon.cpp">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CDharma.cpp">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CEditorSample.cpp">
+      <Filter>Game&amp;Editor\Editor\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CInputParameter.cpp">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CGoal.cpp">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CLabel.cpp">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CLionBottom.cpp">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CLionTop.cpp">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapChip.cpp">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CPiece.cpp">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CRB_Block.cpp">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CTornade.cpp">
+      <Filter>Game&amp;Editor\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerRunImage.cpp">
+      <Filter>Game&amp;Editor\Game\Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CStageManager.cpp">
+      <Filter>Game&amp;Editor\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CMTips.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ps.hlsl">
+      <Filter>System\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="vs.hlsl">
+      <Filter>System\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="directxtex\lib\x86\debug\DirectXTex.lib">
+      <Filter>Library\Debug</Filter>
+    </Library>
+    <Library Include="directxtex\lib\x86\release\DirectXTex.lib">
+      <Filter>Library\Release</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="directxtex\lib\x86\debug\DirectXTex.pdb">
+      <Filter>Library\Debug</Filter>
+    </None>
+    <None Include="directxtex\lib\x86\release\DirectXTex.pdb">
+      <Filter>Library\Release</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HEW2-New.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\Game\Sprites\Common\Title\title_logo.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
